@@ -31,59 +31,59 @@ files:
 - name: src/taxipark/TaxiParkTask.kt
   visible: true
   placeholders:
-  - offset: 136
-    length: 6
+  - offset: 128
+    length: 40
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 136
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 311
-    length: 6
+  - offset: 334
+    length: 152
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 311
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 490
-    length: 6
+  - offset: 869
+    length: 111
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 490
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 646
-    length: 6
+  - offset: 982
+    length: 951
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 646
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 929
-    length: 6
+  - offset: 982
+    length: 951
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 929
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 1075
-    length: 6
+  - offset: 2066
+    length: 488
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 1075
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |-
     package taxipark
