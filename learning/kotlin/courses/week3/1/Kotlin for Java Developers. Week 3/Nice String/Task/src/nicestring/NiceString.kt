@@ -6,7 +6,6 @@ fun String.isNice(): Boolean {
 //    val con1 = "bu" !in this && "ba" !in this && "be" !in this
     val con1 = listOf("bu", "ba", "be").none { it in this }
     val con2 = 3 <= "aeiou".sumBy { a -> this.count { a == it } }
-//    val con3 = (0 until length -1).map { this[it] to this[it+1]}.count{it.first == it.second }
     val con3 = (0 until length - 1).map { this[it] to this[it + 1] }.any { it.first == it.second }
     return listOf(con1, con2, con3).count { it } >= 2
 }
